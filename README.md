@@ -50,7 +50,7 @@ Nếu mọi thứ được thiết lập đúng cách, bạn sẽ thấy ứng d
 
 Bây giờ bạn đã thành công trong việc chạy ứng dụng, hãy tiến hành chỉnh sửa nó.
 
-1. Mở tệp `App.tsx` trong trình soạn thảo văn bản mà bạn thích và chỉnh sửa một số dòng.
+1. Mở tệp `App.js` trong trình soạn thảo văn bản mà bạn thích và chỉnh sửa một số dòng.
 2. Đối với **Android**: Nhấn phím <kbd>R</kbd> hai lần hoặc chọn **"Reload"** từ **Menu Nhà phát triển** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (trên Windows và Linux) hoặc <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (trên macOS)) để xem các thay đổi của bạn!
 
    Đối với **iOS**: Nhấn <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> trong Trình giả lập iOS của bạn để tải lại ứng dụng và xem các thay đổi của bạn!

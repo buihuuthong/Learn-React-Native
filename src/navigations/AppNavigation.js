@@ -1,8 +1,8 @@
-import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import ComponentsOverview from '../screens/Lesson3/ComponentsOverview';
-import AdvancedComponents from '../screens/Lesson3/AdvancedComponents'; 
+import React from 'react';
+import BottomTab from './BottomTab';
+import LoginScreen from '../screens/login/LoginScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,8 +18,8 @@ const AppNavigation = () => {
             headerShown: false,
           }}
         >
-        <Stack.Screen name="ComponentsOverview" component={ComponentsOverview} />
-        <Stack.Screen name="AdvancedComponents" component={AdvancedComponents} />
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="BottomTab" component={BottomTab} />
         </Stack.Group>
       </Stack.Navigator>
     </NavigationContainer>
