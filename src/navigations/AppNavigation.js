@@ -11,6 +11,8 @@ import BasicHook from '../screens/lesson6/BasicHook';
 import AdvancedHook from '../screens/lesson6/AdvancedHook';
 import LoginScreen from '../screens/lesson7/LoginScreen';
 import BottomTab from './BottomTab';
+import BasicApi from '../screens/lesson8/BasicApi';
+import AxiosApi from '../screens/lesson8/AxiosApi';
 
 const Stack = createNativeStackNavigator();
 
@@ -43,8 +45,12 @@ const AppNavigation = () => {
         {/* <Stack.Screen name="AdvancedHook" component={AdvancedHook} /> */}
 
         {/* Bài 7 */}
-        <Stack.Screen name="LoginScreen" component={LoginScreen} />
-        <Stack.Screen name="BottomTab" component={BottomTab} />
+        {/* <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="BottomTab" component={BottomTab} /> */}
+
+        {/* Bai 8 */}
+        <Stack.Screen name="BasicApi" component={BasicApi} />
+        {/* <Stack.Screen name="AxiosApi" component={AxiosApi} /> */}
 
         
         </Stack.Group>
