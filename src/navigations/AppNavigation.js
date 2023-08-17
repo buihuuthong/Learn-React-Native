@@ -3,6 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ComponentsOverview from '../screens/Lesson3/ComponentsOverview';
 import AdvancedComponents from '../screens/Lesson3/AdvancedComponents'; 
+import ParentComponent from '../screens/lesson4/Props'
+import State from '../screens/lesson4/State';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,8 +20,14 @@ const AppNavigation = () => {
             headerShown: false,
           }}
         >
-        <Stack.Screen name="ComponentsOverview" component={ComponentsOverview} />
-        <Stack.Screen name="AdvancedComponents" component={AdvancedComponents} />
+          {/* Bài 3 */}
+        {/* <Stack.Screen name="ComponentsOverview" component={ComponentsOverview} /> */}
+        {/* <Stack.Screen name="AdvancedComponents" component={AdvancedComponents} /> */}
+
+        {/* Bài 4 */}
+        <Stack.Screen name="ParentComponent" component={ParentComponent} />
+        {/* <Stack.Screen name="State" component={State} /> */}
+        
         </Stack.Group>
       </Stack.Navigator>
     </NavigationContainer>
