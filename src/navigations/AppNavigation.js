@@ -6,7 +6,7 @@ import AdvancedComponents from '../screens/Lesson3/AdvancedComponents';
 import ParentComponent from '../screens/lesson4/Props'
 import State from '../screens/lesson4/State';
 import ExampleComponent from '../screens/lesson4/Example';
-import Home from '../screens/lession5/Home';
+import BasicComponent from '../screens/lession5/BasicComponent';
 
 const Stack = createNativeStackNavigator();
 
@@ -32,7 +32,7 @@ const AppNavigation = () => {
         {/* <Stack.Screen name="ExampleComponent" component={ExampleComponent} /> */}
 
         {/* Bài 5 */}
-        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="BasicComponent" component={BasicComponent} />
         
         </Stack.Group>
       </Stack.Navigator>

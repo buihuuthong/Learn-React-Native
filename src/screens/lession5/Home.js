@@ -6,7 +6,7 @@ import COLOR from '../../constants/color';
 // Composition trong RN, sử dụng nhiều thành phần để tạo thành 1 thành phần lớn trong RN
 // Trong bài đang sử dụng Button từ thư mục component, color từ constants
 
-const Home = () => {
+const BasicComponent = () => {
   return (
     <View style={styles.container}>
       <Text style={[styles.text, {color: COLOR.purple}]}>Xin chào!</Text>
@@ -15,7 +15,7 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default BasicComponent;
 
 const styles = StyleSheet.create({
   container: {
