@@ -9,6 +9,8 @@ import ExampleComponent from '../screens/lesson4/Example';
 import BasicComponent from '../screens/lession5/BasicComponent';
 import BasicHook from '../screens/lesson6/BasicHook';
 import AdvancedHook from '../screens/lesson6/AdvancedHook';
+import LoginScreen from '../screens/lesson7/LoginScreen';
+import BottomTab from './BottomTab';
 
 const Stack = createNativeStackNavigator();
 
@@ -38,7 +40,12 @@ const AppNavigation = () => {
 
         {/* Bài 6 */}
         {/* <Stack.Screen name="BasicHook" component={BasicHook} /> */}
-        <Stack.Screen name="AdvancedHook" component={AdvancedHook} />
+        {/* <Stack.Screen name="AdvancedHook" component={AdvancedHook} /> */}
+
+        {/* Bài 7 */}
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="BottomTab" component={BottomTab} />
+
         
         </Stack.Group>
       </Stack.Navigator>
