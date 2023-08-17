@@ -6,7 +6,7 @@ import AdvancedComponents from '../screens/Lesson3/AdvancedComponents';
 import ParentComponent from '../screens/lesson4/Props'
 import State from '../screens/lesson4/State';
 import ExampleComponent from '../screens/lesson4/Example';
-import BasicComponent from '../screens/lession5/BasicComponent';
+import BasicComponent from '../screens/lesson5/BasicComponent';
 import BasicHook from '../screens/lesson6/BasicHook';
 import AdvancedHook from '../screens/lesson6/AdvancedHook';
 import LoginScreen from '../screens/lesson7/LoginScreen';

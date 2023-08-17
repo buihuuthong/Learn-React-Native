@@ -1,5 +1,5 @@
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Image } from 'react-native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {Image} from 'react-native';
 import AccountScreen from '../screens/lesson7/AccountScreen';
 import HomeScreen from '../screens/lesson7/HomeScreen';
 
