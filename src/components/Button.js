@@ -1,7 +1,20 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import IMAGE from '../constants/image';
+import ImageLocal from './ImageLocal';
 
 // Chỗ này sẽ tạo ra các button dùng chung trong dự án
+
+// Button với shape
+export const ButtonShape = ({onPress, title}) => {
+  return (
+    <TouchableOpacity onPress={onPress} style={styles.button_shape}>
+      <View />
+      <Text style={styles.title}>{title}</Text>
+      <ImageLocal image={IMAGE.shape_right} />
+    </TouchableOpacity>
+  );
+};
 
 // Button với text ở giữa
 export const NormalButton = ({onPress, title}) => {

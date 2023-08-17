@@ -13,6 +13,7 @@ import LoginScreen from '../screens/lesson7/LoginScreen';
 import BottomTab from './BottomTab';
 import BasicApi from '../screens/lesson8/BasicApi';
 import AxiosApi from '../screens/lesson8/AxiosApi';
+import BasicForm from '../screens/lesson9/BasicForm';
 
 const Stack = createNativeStackNavigator();
 
@@ -49,9 +50,11 @@ const AppNavigation = () => {
         <Stack.Screen name="BottomTab" component={BottomTab} /> */}
 
         {/* Bai 8 */}
-        <Stack.Screen name="BasicApi" component={BasicApi} />
+        {/* <Stack.Screen name="BasicApi" component={BasicApi} /> */}
         {/* <Stack.Screen name="AxiosApi" component={AxiosApi} /> */}
 
+        {/* Bài 9 */}
+        <Stack.Screen name="BasicForm" component={BasicForm} />
         
         </Stack.Group>
       </Stack.Navigator>
