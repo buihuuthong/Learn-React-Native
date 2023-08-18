@@ -9,11 +9,17 @@ import ExampleComponent from '../screens/lesson4/Example';
 import BasicComponent from '../screens/lesson5/BasicComponent';
 import BasicHook from '../screens/lesson6/BasicHook';
 import AdvancedHook from '../screens/lesson6/AdvancedHook';
-import LoginScreen from '../screens/lesson7/LoginScreen';
+
+// Có mở ở trên thì cmt ở dưới lại vì trùng tên nhe
+
+// import LoginScreen from '../screens/lesson7/LoginScreen';
 import BottomTab from './BottomTab';
 import BasicApi from '../screens/lesson8/BasicApi';
 import AxiosApi from '../screens/lesson8/AxiosApi';
 import BasicForm from '../screens/lesson9/BasicForm';
+import LoginScreen from '../screens/lesson11/login/LoginScreen';
+import HomeScreen from '../screens/lesson11/home/HomeScreen';
+import RegisterScreen from '../screens/lesson11/login/RegisterScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -54,7 +60,12 @@ const AppNavigation = () => {
         {/* <Stack.Screen name="AxiosApi" component={AxiosApi} /> */}
 
         {/* Bài 9 */}
-        <Stack.Screen name="BasicForm" component={BasicForm} />
+        {/* <Stack.Screen name="BasicForm" component={BasicForm} /> */}
+        
+        {/* Bài 11 */}
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
         
         </Stack.Group>
       </Stack.Navigator>
