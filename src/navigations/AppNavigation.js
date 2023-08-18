@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import ComponentsOverview from '../screens/Lesson3/ComponentsOverview';
-import AdvancedComponents from '../screens/Lesson3/AdvancedComponents'; 
+import ComponentsOverview from '../screens/lesson3/ComponentsOverview';
+import AdvancedComponents from '../screens/lesson3/AdvancedComponents'; 
 import ParentComponent from '../screens/lesson4/Props'
 import State from '../screens/lesson4/State';
 import ExampleComponent from '../screens/lesson4/Example';
