@@ -20,6 +20,7 @@ import BasicForm from '../screens/lesson9/BasicForm';
 import LoginScreen from '../screens/lesson11/login/LoginScreen';
 import HomeScreen from '../screens/lesson11/home/HomeScreen';
 import RegisterScreen from '../screens/lesson11/login/RegisterScreen';
+import ReduxExample from '../screens/lesson10/ReduxExample';
 
 const Stack = createNativeStackNavigator();
 
@@ -61,11 +62,14 @@ const AppNavigation = () => {
 
         {/* Bài 9 */}
         {/* <Stack.Screen name="BasicForm" component={BasicForm} /> */}
+
+        {/* Bài 10 */}
+        <Stack.Screen name="ReduxExample" component={ReduxExample} />
         
         {/* Bài 11 */}
-        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        {/* <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
-        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} /> */}
         
         </Stack.Group>
       </Stack.Navigator>
